@@ -7,6 +7,7 @@ describe 'As a visitor' do
       save_and_open_page
       within '.navbar' do
         expect(page).to have_content('Login')
+        expect(page).to have_content('Sign Up')
       end
     end
   end
