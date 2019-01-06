@@ -1,5 +1,5 @@
 class DogsController < ApplicationController
   def index
-    @dogs = DogService.new
+    @dogs = DogFacade.new
   end
 end

@@ -1,0 +1,10 @@
+<div class='main'>
+  <h1 class='heading'>Today's Dog Pix</h1>
+  <div class='dogs'>
+    <% @dogs.doggies.each do |dog| %>
+      <div class='container'>
+        <img src="<%= dog.url %>" alt="dog pic">
+      </div>
+    <% end %>
+  </div>
+</div>
