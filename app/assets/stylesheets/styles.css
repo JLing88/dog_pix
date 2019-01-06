@@ -1,3 +1,21 @@
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+img {
+  position: relative;
+  float: left;
+  width:  100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+
 .navbar-nav > li{
   margin-left:10px;
   margin-right:10px;
