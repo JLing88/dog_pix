@@ -7,7 +7,7 @@
             <div class="card" style="width: 12rem;">
               <img class="card-img-top" src="<%= dog1.url %>" alt="Doggo img">
               <div class="card-body">
-                <p class="card-text"><%= link_to "Save", favorites_path(dog1.url) %></p>
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog1.url) if current_user %></p>
               </div>
             </div>
           </div>
@@ -16,7 +16,7 @@
             <div class="card" style="width: 12rem;">
               <img class="card-img-top" src="<%= dog2.url %>" alt="Doggo img">
               <div class="card-body">
-                <p class="card-text"><%= link_to "Save", favorites_path(dog2.url) %></p>
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog2.url) if current_user %></p>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog3.url %>" alt="Doggo image">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(dog3.url) %></p>
+              <p class="card-text"><%= link_to "Save", favorites_path(url: dog3.url) if current_user %></p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog4.url %>" alt="Doggo img">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(dog4.url) %></p>
+              <p class="card-text"><%= link_to "Save", favorites_path(url: dog4.url) if current_user %></p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog5.url %>" alt="Doggo img">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(url: "#{dog5.url}") %></p>
+              <p class="card-text"><%= link_to "Save", favorites_path(url: dog5.url) if current_user %></p>
             </div>
           </div>
         </div>
