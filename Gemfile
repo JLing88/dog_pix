@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -23,6 +24,8 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'simplecov'
   gem 'pry'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
 
 group :development do
