@@ -1,10 +1,53 @@
 <div class='main'>
   <h1 class='heading'>Today's Dog Pix</h1>
   <div class='dogs'>
-    <% @dogs.doggies.each do |dog| %>
-      <div class='container'>
-        <img src="<%= dog.url %>" alt="dog pic">
-      </div>
+    <% @dogs.doggies.in_groups_of(5) do |dog1, dog2, dog3, dog4, dog5| %>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 12rem;">
+              <img class="card-img-top" src="<%= dog1.url %>" alt="Doggo img">
+              <div class="card-body">
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog1.url) if current_user %></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="outline card" style="width: 12rem;">
+              <img class="card-img-top" src="<%= dog2.url %>" alt="Doggo img">
+              <div class="card-body">
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog2.url) if current_user %></p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+          <div class="card rounded" style="width: 13rem;">
+            <img class="card-img-top" src="<%= dog3.url %>" alt="Doggo image">
+            <div class="card-body">
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog3.url), method: :post if current_user%></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 12rem;">
+            <img class="card-img-top" src="<%= dog4.url %>" alt="Doggo img">
+            <div class="card-body">
+              <p class="card-text"><%= link_to "Save", favorites_path(url: dog4.url) if current_user %></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 12rem;">
+            <img class="card-img-top" src="<%= dog5.url %>" alt="Doggo img">
+            <div class="card-body">
+              <p class="card-text"><%= link_to "Save", favorites_path(url: dog5.url) if current_user %></p>
+            </div>
+          </div>
+        </div>
+    </div>
     <% end %>
   </div>
 </div>
