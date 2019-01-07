@@ -19,6 +19,6 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* ![Heroku](https://dog-pix.herokuapp.com/)
+* [Heroku](https://dog-pix.herokuapp.com/)
 
 * ...
