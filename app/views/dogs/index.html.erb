@@ -13,7 +13,7 @@
           </div>
 
           <div class="col">
-            <div class="card" style="width: 12rem;">
+            <div class="outline card" style="width: 12rem;">
               <img class="card-img-top" src="<%= dog2.url %>" alt="Doggo img">
               <div class="card-body">
                 <p class="card-text"><%= link_to "Save", favorites_path(url: dog2.url) if current_user %></p>
@@ -22,10 +22,10 @@
           </div>
 
         <div class="col">
-          <div class="card" style="width: 12rem;">
+          <div class="card rounded" style="width: 13rem;">
             <img class="card-img-top" src="<%= dog3.url %>" alt="Doggo image">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(url: dog3.url) if current_user %></p>
+                <p class="card-text"><%= link_to "Save", favorites_path(url: dog3.url), method: :post if current_user%></p>
             </div>
           </div>
         </div>
@@ -49,9 +49,5 @@
         </div>
     </div>
     <% end %>
-  </div>
-</div>
-
-
   </div>
 </div>
