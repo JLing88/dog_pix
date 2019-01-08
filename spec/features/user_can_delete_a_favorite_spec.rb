@@ -9,6 +9,7 @@ describe 'As a logged in user' do
       dog = Favorite.create!(user_id: user.id, url: "https://images.dog.ceo/breeds/frise-bichon/stevebaxter_bichon_frise.jpg")
 
       visit '/favorites'
+      expect(page).to have_css(".dog-#{dog.id}")
       click_button('Delete')
       expect(current_path).to eq '/favorites'
       expect(page).to have_no_css(".dog-#{dog.id}")
