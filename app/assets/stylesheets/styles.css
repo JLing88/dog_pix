@@ -6,13 +6,13 @@ ul {
 img {
   position: relative;
   float: left;
-  width:  200px;
-  height: 200px;
+  max-width:  200px;
+  max-height: 200px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
-  border: 5px solid #021a40;
-  border-radius: 10%;
+  background: #D3D3D3;
+  border-radius: 3%;
   padding: 15px;
 }
 
@@ -22,10 +22,15 @@ img {
 
 .card-body {
   text-align: center;
+  background: #D3D3D3;
 }
 
-.main {
-  background: #ffd0d7
+body {
+  background-image: url("pink_clouds.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -39,4 +44,13 @@ img {
 .heading {
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  color: #B5D3E7;
+}
+
+.center {
+  text-align: center;
+}
+
+.message {
+  background: grey;
 }
