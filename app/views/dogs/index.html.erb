@@ -7,7 +7,7 @@
             <div class="card" style="width: 12rem;">
               <img class="card-img-top" src="<%= dog1.url %>" alt="Doggo img">
               <div class="card-body">
-                <p class="card-text"><%= link_to "Save", favorites_path(url: dog1.url), method: :post if current_user %></p>
+                <p class="card-text"><%= button_to "Save", favorites_path(url: dog1.url), method: :post if current_user %></p>
                 <p class="card-text"><%= link_to "Login to Save!", new_user_session_path if current_user == nil %> </p>
               </div>
             </div>
@@ -17,7 +17,7 @@
             <div class="card" style="width: 12rem;">
               <img class="card-img-top" src="<%= dog2.url %>" alt="Doggo img">
               <div class="card-body">
-                <p class="card-text"><%= link_to "Save", favorites_path(url: dog2.url), method: :post if current_user %></p>
+                <p class="card-text"><%= button_to "Save", favorites_path(url: dog2.url), method: :post if current_user %></p>
                 <p class="card-text"><%= link_to "Login to Save!", new_user_session_path if current_user == nil %> </p>
               </div>
             </div>
@@ -27,7 +27,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog3.url %>" alt="Doggo image">
             <div class="card-body">
-                <p class="card-text"><%= link_to "Save", favorites_path(url: dog3.url), method: :post if current_user%></p>
+                <p class="card-text"><%= button_to "Save", favorites_path(url: dog3.url), method: :post if current_user%></p>
                 <p class="card-text"><%= link_to "Login to Save!", new_user_session_path if current_user == nil %> </p>
             </div>
           </div>
@@ -37,7 +37,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog4.url %>" alt="Doggo img">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(url: dog4.url), method: :post if current_user %></p>
+              <p class="card-text"><%= button_to "Save", favorites_path(url: dog4.url), method: :post if current_user %></p>
               <p class="card-text"><%= link_to "Login to Save!", new_user_session_path if current_user == nil %> </p>
             </div>
           </div>
@@ -47,7 +47,7 @@
           <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="<%= dog5.url %>" alt="Doggo img">
             <div class="card-body">
-              <p class="card-text"><%= link_to "Save", favorites_path(url: dog5.url), method: :post if current_user %></p>
+              <p class="card-text"><%= button_to "Save", favorites_path(url: dog5.url), method: :post if current_user %></p>
               <p class="card-text"><%= link_to "Login to Save!", new_user_session_path if current_user == nil %> </p>
             </div>
           </div>

@@ -9,7 +9,7 @@ describe 'As a logged in user' do
       visit '/'
 
       first('.card-body').click_link('Save')
-
+      save_and_open_page
       expect(current_path).to eq '/favorites'
     end
   end
