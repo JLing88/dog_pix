@@ -50,3 +50,7 @@ body {
 .center {
   text-align: center;
 }
+
+.message {
+  background: grey;
+}

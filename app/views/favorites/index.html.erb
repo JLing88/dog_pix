@@ -3,10 +3,10 @@
   <% @dogs.each do |dog|%>
     <div class="row">
       <div class="col">
-        <div class="card" style="width: 12rem;">
+        <div class="dog-<%= dog.id %> card" style="width: 12rem;">
           <img class="card-img-top" src="<%= dog.url %>" alt="Doggo img">
           <div class="card-body">
-            <p class="card-text"><%= button_to "Delete", favorites_path(url: dog.url), method: :delete if current_user %></p>
+            <p class="card-text"><%= button_to "Delete", favorite_path(dog), method: :delete if current_user %></p>
           </div>
         </div>
       </div>
