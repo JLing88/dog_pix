@@ -33,9 +33,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* This was a take home challenge for a Jr. Backend Development role at [Turing School of Software & Design](https://turing.io/)
+
 
 
 
