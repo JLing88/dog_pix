@@ -3,6 +3,7 @@
 [![ruby](https://img.shields.io/badge/ruby-2.4.1-red.svg)](https://www.ruby-lang.org/en/)
 [![rails](https://img.shields.io/badge/rails-5.2.2-yellow.svg)](https://rubyonrails.org/)
 [![Build Status](https://travis-ci.com/JLing88/dog_pix.svg?branch=master)](https://travis-ci.com/JLing88/dog_pix)
+[![Waffle.io - Issues in progress](https://badge.waffle.io/JLing88/dog_pix.png?label=in%20progress&title=In%20Progress)](http://waffle.io/JLing88/dog_pix)
 
 # Dog Pix
 
