@@ -1,6 +1,8 @@
 # README 
 
-(https://travis-ci.com/JLing88/dog_pix.svg?branch=master)
+[![ruby](https://img.shields.io/badge/ruby-v2.5.1-red.svg)](https://www.ruby-lang.org/en/)
+[![rails](https://img.shields.io/badge/rails-v5.2.2-orange.svg)](https://rubyonrails.org/)
+[![Build Status](https://travis-ci.com/JLing88/dog_pix.svg?branch=master)](https://travis-ci.com/JLing88/dog_pix)
 
 # Dog Pix
 
@@ -10,7 +12,8 @@ Deployed application is hosted on Heroku and can be viewed at: [Dog-Pix](https:/
 
 ## Screenshots
 
-()
+![ScreenShot](/Screen Shot 2019-01-08 at 9.04.18 PM.png)
+![ScreenShot](/Screen Shot 2019-01-08 at 9.11.41 PM.png)
 
 ## Getting Started
 
