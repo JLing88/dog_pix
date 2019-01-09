@@ -13,7 +13,7 @@ Deployed application is hosted on Heroku and can be viewed at: [Dog-Pix](https:/
 ## Screenshots
 
 ![ScreenShot](/Screen%20Shot%202019-01-08%20at%209.04.18%20PM.png)
-![ScreenShot](/Screen%20Shot%202019-01-08%20at%209.11.41 PM.png)
+![ScreenShot](/Screen%20Shot%202019-01-08%20at%209.11.41%20PM.png)
 
 ## Getting Started
 
