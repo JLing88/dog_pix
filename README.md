@@ -1,9 +1,16 @@
-# README
+# README 
+
+(https://travis-ci.com/JLing88/dog_pix.svg?branch=master)
+
 # Dog Pix
 
-Dog Pix is a simple application which pulls dog photos from the Dog.ceo api and allows a user to save photos to their favorites. It has full Devise authentication which enables a user to sign up, login, and logout.
+Dog Pix is a simple application which pulls dog photos from the Dog.ceo api and allows a user to save photos to their favorites. It has full Devise authentication which enables a user to sign up, login, and logout. This project is implemented with continuous integration provided by Travis CI.
 
 Deployed application is hosted on Heroku and can be viewed at: [Dog-Pix](https://dog-pix.herokuapp.com/)
+
+## Screenshots
+
+()
 
 ## Getting Started
 
@@ -18,6 +25,8 @@ Deployed application is hosted on Heroku and can be viewed at: [Dog-Pix](https:/
 * [PostgreSQL](https://www.postgresql.org/) - Database Software
 * [Bundler](https://bundler.io/) - Ruby Package Manager
 * [RSpec](http://rspec.info/) - Testing Suite
+* [Devise](https://github.com/plataformatec/devise) - Authentication
+* [Factory Bot](https://github.com/thoughtbot/factory_bot) - Testing
 
 ## Running the tests
 
