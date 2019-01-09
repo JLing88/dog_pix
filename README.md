@@ -17,9 +17,15 @@ Deployed application is hosted on Heroku and can be viewed at: [Dog-Pix](https:/
 
 ## Getting Started
 
-```git clone git@github.com:JLing88/dog_pix.git```
-```bundle```
-```rails db:{create,migrate}```
+`git clone git@github.com:JLing88/dog_pix.git` - Clone repository from GitHub to your machine
+
+`bundle` - Pull in dependencies
+
+`rails db:{create,migrate}` - Create and migrate the database
+
+`rails s` - Start the rails server
+
+`localhost:3000` - Visit home page
 
 ## Built With
 
