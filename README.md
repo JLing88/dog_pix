@@ -1,6 +1,6 @@
 # README 
 
-[![ruby](https://img.shields.io/badge/ruby-v2.5.1-red.svg)](https://www.ruby-lang.org/en/)
+[![ruby](https://img.shields.io/badge/Ruby-2.4.1-blue.svg)
 [![rails](https://img.shields.io/badge/rails-v5.2.2-orange.svg)](https://rubyonrails.org/)
 [![Build Status](https://travis-ci.com/JLing88/dog_pix.svg?branch=master)](https://travis-ci.com/JLing88/dog_pix)
 
